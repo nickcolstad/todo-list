@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: "Arial";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: gratscale;
+}
+
+code {
+  font-family: "Arial";
+}
+
+.app {
+  background: rgba(213, 192, 255, 0.769);
+  padding: 30px;
+  height: 100vh;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.todo {
+  background: #ffff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  background: rgb(108, 35, 255);
+  padding: 0.5em;
+  margin: 0;
+}
+
+.todo:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+input:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
